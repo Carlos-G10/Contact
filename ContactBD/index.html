@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+    src="https://kit.fontawesome.com/64d58efce2.js"
+    crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <div class="container">
+        <span class="circulo-gde"></span>
+        <img src="img/puntos.jpg" class="cuadrado" alt="" />
+        <div class="form">
+            <div class="contacto-info">
+                <h3 class="tittle">Pongamonos en contacto</h3>
+                <p class="text">
+                    Esto es una prueba de formulario de contacto usando HTML. CSS Y
+                     algo de JavaScript
+                </p>
+
+                <div class="info">
+                    <div class="informacion">
+                        <img src="img/ubicacion.jpg" class="icon" alt="" />
+                        <p>Monterrey, N.L 64000</p>
+                    </div>
+                    <div class="informacion">
+                    <img src="img/email.jpg" class="icon" alt="" />
+                    <p>carlos@utsc.edu.mx</p>
+                </div>
+                <div class="informacion">
+                    <img src="img/telefono.jpg" class="icon" alt="" />
+                    <p>11-00-10-01-11</p>
+                </div>
+            </div>
+        
+            <div class="redes-soc">
+                <p>Ponte en contacto con nosotros: </p>
+                <div class="social-icons">
+                    <a href="www.facebook.com">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="www.twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="www.instagram.com">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="www.linkedin.com">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <span class="circulo uno"></span>
+            <span class="circulo dos"></span>
+
+            <form id="contact-form" method="post" action="registro.php" autocomplete="off">
+                <h3 class="tittle">Contactanos</h3>
+                <div class="input-container">
+                    <input type="text" name="name" class="input" />
+                    <label for="">Usuario</label>
+                    <span>Usuario</span>
+                </div>
+                <div class="input-container">
+                    <input type="email" name="email" class="input" />
+                    <label for="">Correo electronico</label>
+                    <span>Correo electronico</span>
+                </div>
+                <div class="input-container">
+                    <input type="tel" name="phone" class="input" />
+                    <label for="">Telefono</label>
+                    <span>Telefono</span>
+                </div>
+                <div class="input-container textarea">
+                    <textarea name="message" class="input"></textarea>
+                    <label for="">Mensaje</label>
+                    <span>Mensaje</span>
+                </div>
+                <input name="enviar" type="submit" value="Enviar" class="form-control submit" />
+            </form>
+        </div>
+    </div>
+</div>
+
+   <script src="app.js"></script> 
+</body>
+</html>
